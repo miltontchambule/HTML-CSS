@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-weight: bold;
+        }
+header{
+    background-image: linear-gradient(rgb(0, 214, 82), rgba(21, 75, 0, 0.993));
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.329);
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: 100px;
+        margin-bottom: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a:hover{
+        color: yellow;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    h1{
+        background-image: none;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    p{
+        font-size: 11px;
+        text-align: center;
+        color: white;
+        margin-bottom: 28px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+}
+
+Body{
+    background-color: rgb(71, 255, 132);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 12px;
+    text-indent: 20px;
+}
+
+h1{
+    font-family: 'idroid', Times, serif;
+    text-align: left;
+    color: rgb(0, 87, 0);
+    
+}
+
+.subtitulos{
+        font-family: 'idroid', Times, serif;
+    text-align: left;
+    color: rgb(0, 87, 0);
+    background-image: linear-gradient(to right, rgba(0, 156, 0, 0.315), white);
+    }
+    .fotos{
+
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+img{
+    width: 100%;
+}
+
+    iframe{
+
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+.principal{
+    background-color: white;
+    padding: 10px;
+    max-width: 800px;
+    min-width: 320px;
+ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.473);
+ border-radius: 0px 0px 10px 10px;
+ background-attachment: fixed;
+ margin: auto;
+ picture{
+    margin: auto;
+ }
+ a:hover{
+    color: rgb(255, 230, 0);
+    text-decoration: solid;
+
+ }
+a{
+    color: rgb(11, 71, 11);
+    text-decoration: solid;
+    font-weight: bold;
+
+}
+
+}
+
+.tabela{
+    background-color: rgb(145, 231, 178);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+    color: black;
+    h2{
+        background-color: rgb(46, 204, 98);
+        margin-bottom: 50px;
+        color: white;font-size: 16px;
+        border-radius: 15px;
+        box-shadow: none;
+
+    }
+
+}
+footer{
+    background-color: rgb(0, 56, 12);
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+}
